@@ -26,21 +26,26 @@ a {
 
 button {
   width: 250px;
-  background-color: rgba(122, 48, 241, 0.174);
+  height: 75px;
+  background-color: rgba(122, 48, 241, 0.108);
   border: 3px solid rgb(122, 48, 241);
   margin: 0 auto;
   border-radius: 20px;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 19px;
+  font-weight: 700;
   padding: 10px 20px;
   max-width: 250px;
 }
 button:hover {
   background-color: rgb(122, 48, 241);
-  font-size: 19px;
+  font-size: 20px;
   padding: 11px 20px;
   font-weight: 900;
   color: #fff;
+}
+
+.text {
+  font-size: 14px;
 }
 
 .container-logo {
